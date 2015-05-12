@@ -1,0 +1,127 @@
+/*FONTS*/
+
+@import url(http://fonts.googleapis.com/css?family=Coming+Soon);
+@import url(http://fonts.googleapis.com/css?family=The+Girl+Next+Door);
+
+/*BACKGROUND*/
+
+body {
+  background: url(../images/chalkboard.jpg) no-repeat center top;
+  background-size: cover;
+}
+
+/*NAVIGATION BAR*/
+#navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  text-align: center
+}
+
+#navbar nav a {
+  display: inline-block;
+  width: 16.6666667%;
+  padding: 15px 0;
+  text-transform: uppercase;
+  color: #ccc;
+  text-align: center;
+  border-right: 1px solid #ccc;
+  text-decoration: none;
+  font-family: 'Coming Soon', cursive;
+}
+
+/*HEADING*/
+
+h1 {
+  padding: 30px 0 0 0;
+  margin-bottom: 0;
+  color: #ccc;
+  font-family: 'The Girl Next Door', cursive;
+}
+
+h2 {
+  margin-top: 0;
+  color: #ccc;
+  font-family: 'The Girl Next Door', cursive;
+}
+
+
+/*IMAGES*/
+img {
+  width: 100%;
+  height:100%;
+  border-style:dotted;
+  border-width: 2px;
+  border-color: #ccc;
+}
+
+figcaption {
+  color: 808080;
+  text-align: right;
+  font-size: 10px;
+  font-family: 'Coming Soon', cursive;
+  color: #ccc;
+}
+
+.class-photo {
+  width: 50%;
+  height: 50%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+/*MAIN CONTENT*/
+
+p {
+  font-family: 'Coming Soon', cursive;
+  color: #ccc;
+  padding: 0 0 30px 30px;
+}
+
+h3 {
+  font-family: 'Coming Soon', cursive;
+  color: #ccc;
+  text-decoration: underline;
+  padding: 0 0 20px 20px;
+}
+
+a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+address {
+  color: #ccc;
+  font-family: 'Coming Soon', cursive;
+  padding: 0 0 20px 20px;
+}
+
+
+/*TABLE*/
+
+table {
+  margin: 0 0 20px;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th, td {
+  padding: 10px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  font-family: 'Coming Soon', cursive;
+  color:#ccc;
+}
+
+
+
+
+
+
+
+
+
